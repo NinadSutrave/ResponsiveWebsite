@@ -1,0 +1,21 @@
+.button {
+    color: #fff;
+    width: 150px;
+    background-color: #409cec;
+    padding: 0.7em;
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #50b4f4;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media (max-width: 700px) {
+    .button {
+        width: 40%;
+    }
+    
+}

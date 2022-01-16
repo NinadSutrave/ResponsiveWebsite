@@ -1,0 +1,25 @@
+.line {
+    margin: auto;
+    height: 48vh;
+    width: 0%;
+    border: 1pt solid #409cec;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0.7rem;   
+    color: #409cec;
+}
+
+@media (max-width: 700px) {
+    .middle {
+        width: 100%;
+    }
+    .line {
+        height: 0vh; 
+        width: 40%;
+    }
+}
+
